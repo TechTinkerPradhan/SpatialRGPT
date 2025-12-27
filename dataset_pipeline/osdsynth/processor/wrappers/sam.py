@@ -10,7 +10,7 @@ from PIL import Image
 GSA_PATH = "osdsynth/external/Grounded-Segment-Anything"
 sys.path.append(GSA_PATH)
 
-from segment_anything import SamAutomaticMaskGenerator, SamPredictor, sam_hq_model_registry, sam_model_registry
+from segment_anything.segment_anything import SamAutomaticMaskGenerator, SamPredictor, sam_hq_model_registry, sam_model_registry
 
 # Segment-Anything checkpoint
 SAM_ENCODER_VERSION = "vit_h"
